@@ -1,0 +1,22 @@
+.project-list{
+	border-bottom: 2px solid #12cdad;
+	background: lightgreen;
+	padding: 1%;
+	margin-top: 1%;
+	font-size: 1.2em;
+	width: 50%;
+	border-radius: 0 10px 0 10px;
+}
+.todo-list{
+	background: skyblue;
+}
+.project-list a{
+	text-decoration: none;
+	color: red;
+	margin-left: 5px;
+}
+@media (max-width: 1000px){
+.project-list{
+	width: 65%;
+	}
+}

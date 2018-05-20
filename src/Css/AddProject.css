@@ -1,0 +1,28 @@
+.form-content{
+	text-align: center;
+	font-family: sans-serif;
+}
+.form-content h3{
+	background: #eee;
+	font-size: 2.2em;
+	
+}
+.form-content label{
+	font-size: 1.5em;
+	color: #acacef;
+}
+.form-content input{
+	width: 220px;
+	height: 20px;
+}
+.form-content input[type=submit]{
+	height: 40px;
+	border-radius: 5px;
+	background: #84adcd;
+	font-size: 1.5em;
+	box-shadow: 2px 3px 4px gray;
+}
+.form-content select{
+	width: 220px;
+	height: 20px;
+}

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import uuid from 'uuid';
 import PropTypes from 'prop-types';
+import '../Css/AddProject.css';
 
 class AddProject extends Component {
 
@@ -43,6 +44,7 @@ class AddProject extends Component {
     })
     return (
       <div>
+      <div className="form-content">
         <h3>Add Project</h3>
         <form onSubmit={this.handleSubmit.bind(this)}>
           <div>
@@ -59,6 +61,7 @@ class AddProject extends Component {
           <input type="submit" value="Submit" />
           <br />
         </form>
+        </div>
       </div>
     );
   }

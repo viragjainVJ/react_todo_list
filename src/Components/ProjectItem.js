@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import '../Css/ListDesign.css';
 
 class ProjectItem extends Component {
 
@@ -11,8 +12,8 @@ deleteProject(id){
 
   render() {
     return (
-      <li>
-      	<strong>{this.props.project.title}</strong>: {this.props.project.category} <a href="#" onClick={this.deleteProject.bind(this, this.props.project.id)}>X</a>
+      <li className="project-list">
+      	<strong>{this.props.project.title}</strong>: {this.props.project.category}<sup> <a href="#" onClick={this.deleteProject.bind(this, this.props.project.id)}>X</a></sup>
       </li>
     );
   }
