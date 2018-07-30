@@ -17,4 +17,15 @@ See the section about [running tests](#running-tests) for more information.
 
 ### `npm run build`
 
-TODO LIST
+Project is Implemented on React to perform.
+## TODO LIST
+
+with fetching the JSON data from the server.
+
+Found my LinkedIn Profile:
+
+## https://www.linkedin.com/in/viragjain-vj/
+
+Tweet me on: 
+
+## https://twitter.com/ViragJain_VJ
